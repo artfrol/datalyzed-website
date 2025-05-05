@@ -13,13 +13,10 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-gray-700 mb-8 md:mb-12 max-w-3xl mx-auto">
             Большинство решений в бизнесе принимаются наугад. Мы внедряем аналитику, которая показывает правду: где бизнес теряет деньги, что приносит прибыль, и куда идти дальше.
           </p>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+          <div className="flex justify-center">
             <Button className="text-base md:text-lg px-8 py-6 bg-gradient-to-r from-brand-blue to-brand-purple hover:opacity-90 transition-all">
               Записаться на бесплатную консультацию
             </Button>
-            <p className="text-sm md:text-base text-gray-600 mt-3 md:mt-0 md:ml-4">
-              Покажем, как навести порядок в данных и зарабатывать больше.
-            </p>
           </div>
         </div>
       </div>
