@@ -1,4 +1,6 @@
+
 import { Button } from "@/components/ui/button";
+
 const HeroSection = () => {
   return <div className="relative bg-gradient-to-b from-brand-light-blue/10 to-white">
       <div className="absolute inset-0 bg-data-pattern opacity-30"></div>
@@ -11,7 +13,10 @@ const HeroSection = () => {
             Большинство решений в бизнесе принимаются наугад. Мы внедряем аналитику, которая показывает правду: где бизнес теряет деньги, что приносит прибыль, и куда идти дальше.
           </p>
           <div className="flex justify-center">
-            <Button className="text-base md:text-lg px-8 py-6 bg-gradient-to-r from-brand-blue to-brand-purple hover:opacity-90 transition-all">
+            <Button 
+              className="text-base md:text-lg px-8 py-6 bg-gradient-to-r from-brand-blue to-brand-purple hover:opacity-90 transition-all"
+              onClick={() => window.open("https://calendly.com/artfrol-af/artem-frolov", "_blank")}
+            >
               Записаться на бесплатную консультацию
             </Button>
           </div>
@@ -19,4 +24,5 @@ const HeroSection = () => {
       </div>
     </div>;
 };
+
 export default HeroSection;
